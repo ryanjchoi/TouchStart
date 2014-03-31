@@ -1,0 +1,16 @@
+$base_color: #546346;
+$button-height: 2em;
+
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+@include icon('camera', 'v');
+@include sencha-toolbar-ui('subnav', #625546, 'matte');
+
+// Custom code goes here..
+
+// Examples of using the icon mixin:
+// @include icon('user');
